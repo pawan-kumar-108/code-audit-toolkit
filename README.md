@@ -63,7 +63,7 @@ python3 main.py /path/to/your/code --format html --open
 - Python 3.6+ (no pip packages needed!)
 - Any modern web browser (for HTML reports)
 
-### Test Scenarios for Judges
+### Test Scenarios
 
 #### **Test 1: Scan This Project**
 ```bash
@@ -243,17 +243,7 @@ MIT License - See [LICENSE](LICENSE) file
 
 ---
 
-## 🤝 Hackathon Judges
-
-**Testing Checklist:**
-- [x] Run `python3 main.py . --format html --open` (2 seconds)
-- [x] Verify HTML report opens automatically
-- [x] Test security detection with sample vulnerable code
-- [x] Confirm zero external dependencies (`import` statements check)
-- [x] Validate 8+ language support
-- [x] Check interactive features (search, tree, theme toggle)
-
-**Contact**: For questions during judging, file format is self-documenting — just read `main.py` (single file, ~300 lines).
+**Contact**: For questions, you are free to contact me at pawangugm@gmail.com, all the content are in `main.py` (single file, ~300 lines).
 
 ---
 
