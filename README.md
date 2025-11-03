@@ -57,6 +57,15 @@ python3 main.py /path/to/your/code --format html --open
 
 ---
 
+## 🔥 **Usecase**:
+
+- Time Saved: Automates 4-8 hours of manual code review
+- Risk Reduction: Catches security issues before production
+- Technical Debt: Identifies refactoring priorities
+- CI/CD Integration: JSON output for automated quality gates
+- Team Alignment: Objective quality metrics everyone can see
+
+
 ## 📦 Installation & Testing
 
 ### Prerequisites
