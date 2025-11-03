@@ -162,9 +162,10 @@ class HealthScanner:
     def _generate_report(self):
         """Generate final report"""
         self.functions.sort(key=lambda x: x['complexity'], reverse=True)
-        file_tree = self._build_file_tree()
+        tree_data = self._build_file_tree()
         return {'health_score': self._calculate_health_score(), 'stats': dict(self.stats),
-                'issues': self.issues, 'top_complex': self.functions[:10], 'file_tree': file_tree}
+                'issues': self.issues, 'top_complex': self.functions[:10], 
+                'file_tree': tree_data['tree'], 'file_stats': tree_data['file_stats']}
     
     def _build_file_tree(self):
         """Build hierarchical file structure for visualization"""
